@@ -1,4 +1,6 @@
-<h1>Zgraj się!</h1>
+Zgraj się!
+=======
+
 
 # Strona Zgraj Sie! zbudowana w oparciu o Ruby on Rails.
 
