@@ -11,7 +11,12 @@ describe "StaticPages" do
 
 		it "powinna mieć właściwy tytuł" do
 			visit '/static_pages/home'
-			expect(page).to have_title("Zgraj Się! | Home")
+			expect(page).to have_title("Zgraj Się!")
+		end
+
+		it "nie powinna mieć tytułu" do
+			visit '/static_pages/home'
+			expect(page).not_to have_title('| Home')
 		end
 	end
 
